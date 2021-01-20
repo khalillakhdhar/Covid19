@@ -7,6 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form>
+<table>
+<tr><td><h1>Connexion</h1></td></tr>
+<tr><td>Login:</td><td><input type="text" required></td></tr>
+<tr><td></td><td></td></tr>
+<tr></tr>
+</table>
 
+</form>
 </body>
 </html>
