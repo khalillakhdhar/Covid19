@@ -10,9 +10,9 @@
 <form>
 <table>
 <tr><td><h1>Connexion</h1></td></tr>
-<tr><td>Login:</td><td><input type="text" required name="login"></td></tr>
-<tr><td>Mot de passe:</td><td><input type="password" required name="mdp"></td></tr>
-<tr><input type="submit"></tr>
+<tr><td>Login:</td><td><input type="text" pattern="[A-Za-z0-9]{4,30}" required name="login"></td></tr>
+<tr><td>Mot de passe:</td><td><input type="password" pattern="[A-Za-z0-9 *,]{4,30}" required name="mdp"></td></tr>
+<tr><td><input type="submit"></td></tr>
 </table>
 
 </form>
